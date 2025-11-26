@@ -17,83 +17,129 @@
     }
   </style>
   <body>
-    <img class="allinea" src="./assets/img/logo.svg" width="200" />
-
-    <h1 class="x" ,class="allinea">Epicode - Il blog dei developers</h1>
-    <menu>
-      <div>
-        <a></a>
-        <a href="#"><h5>Home</h5> </a>
-        <a href="#"><h5>Articoli</h5> </a>
-        <a href="#"><h5>Lavora con noi</h5> </a>
-      </div>
-    </menu>
     <header>
-      <div class="x">
-        <h3>Post Title</h3>
-        <h5>pubblicato da Mario rossi il 25/10/2020</h5>
+      <img class="allinea" src="./assets/img/logo.svg" width="200" />
+
+      <h1 class="x" ,class="allinea">Epicode - Il blog dei developers</h1>
+
+      <div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Articoli</a></li>
+          <li><a href="#">Lavora con noi</a></li>
+        </ul>
       </div>
     </header>
     <main class="x">
-      <img
-        class="allinea"
-        src="data:image/png;base64,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"
-        width="300px"
-      />
-      <p>descrizione del post</p>
+      <div class="x">
+        <h3>Come creare un template per i post</h3>
+        <p>di Mario rossi il 25/10/2020</p>
+      </div>
+      <section>
+        <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine.</p>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+          <li>Contenuti di intestazione del tag &lt;header&gt;</li>
+          <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)</li>
+          <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Formattazione del codice</h3>
+        <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:</p>
+        <ol>
+          <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+          <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+          <li>Applicare gli stili CSS</li>
+        </ol>
+        <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
+      </section>
+
+      <caption>
+        <h3>diffusione dei css</h3>
+      </caption>
+      <table class="x">
+        <thead>
+          <tr>
+            <th>Anno</th>
+            <th>% di utilizzo</th>
+            <th>Supporto browsers</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+          </tr>
+          <tr>
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+          </tr>
+          <tr>
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
 
-    <table class="x">
-      <caption>
-        diffusione dei css
-      </caption>
-      <tr>
-        <th>Anno</th>
-        <th>% di utilizzo</th>
-        <th>% supporto browser</th>
-      </tr>
-      <tr>
-        <td>2000</td>
-        <td>20</td>
-        <td>17</td>
-      </tr>
-      <tr>
-        <td>2002</td>
-        <td>35</td>
-        <td>22</td>
-      </tr>
-      <tr>
-        <td>2004</td>
-        <td>45</td>
-        <td>42</td>
-      </tr>
-    </table>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/g4BnUZoT0c4?si=r7xgDyARj5mm2d1A"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h3>Articoli correlati</h3>
 
-    <iframe src="https://www.youtube.com/shorts/9A2nP4tUn1c" frameborder="0" width="100%" height="300"></iframe>
+    <div class="x">
+      <h4>Validare il codice HTML</h4>
+      <p>Categoria: develop</p>
+      <p>Data: 18/9/2020</p>
+    </div>
 
-    <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
-    <form onsubmit="alert('form inviato')">
-      <div>
-        <label for="name-input">nome</label>
-        <input id="name-input" type="text" placeholder="qual è il tuo nome" required />
-      </div>
-      <div>
-        <label for="surname-input">Cognome</label>
-        <input id="surname-input" type="text" placeholder="qual è il tuo cognome" required />
-      </div>
-      <div>
-        <label for="email-input">Email</label>
-        <input id="email-input" type="email" placeholder="email@.com" />
-      </div>
-      <button type="submit">INVIA</button>
+    <div class="x">
+      <h4>Correggere la sintassi</h4>
+      <p>Categoria: develop</p>
+      <p>Data: 16/9/2020</p>
+    </div>
+
+    <div class="x">
+      <h4>Meno Kb nella pagina</h4>
+      <p>Categoria: ottimizzazione</p>
+      <p>Data: 30/9/2020</p>
+    </div>
+
+    <h3>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</h3>
+    <form onsubmit="alrt('registrazione avvenuta')">
+      <label for="email">inserisci l'email</label>
+      <input type="email" id="email" placeholder="nome@email.it" />
+      <button type="submit">Iscriviti!</button>
     </form>
+
     <footer>
-      <h4>articoli correlati</h4>
+      <p>Blog Epicode ©2023</p>
       <p>
-        Articoli correlati Validare il codice HTML Categoria: develop Data: 18/9/2020 Correggere la sintassi Categoria: develop Data: 16/9/2020 Meno Kb nella
-        pagina Categoria: ottimizzazione Data: 30/9/2020
+        Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 – Milano. P.IVA 00112233.
+        <a href="mailto:info@epicode.school">info@epicode.school</a>
       </p>
-      <h5>Autore: Mario Rossi &copy;</h5>
     </footer>
   </body>
 </html>
